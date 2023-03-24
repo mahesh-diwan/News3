@@ -14,7 +14,7 @@ var newsDataArr=[];
 // apis
 const API_KEY="pub_19438e432335ef1317ed1c8b1db3abe4e3d3a"
 const HEADLINES_NEWS="https://newsdata.io/api/1/news?language=en&country=in&apikey="
-const GENERAL_NEWS="https://newsdata.io/api/1/news?language=en&country=in&category=politics&apikey="
+const GENERAL_NEWS="https://newsdata.io/api/1/news?language=en&country=in&category=health&apikey="
 const SPORTS_NEWS="https://newsdata.io/api/1/news?language=en&country=in&category=sports&apikey="
 const TECHNOLOGY_NEWS="https://newsdata.io/api/1/news?language=en&country=in&category=technology&apikey="
 const ENTERTAINMENT_NEWS="https://newsdata.io/api/1/news?language=en&country=in&category=entertainment&apikey="
