@@ -22,28 +22,28 @@ const SEARCH_NEWS="https://newsdata.io/api/1/news?language=en&country=in&q="
 
 
 window.onload=function(){
-    newstype.innerHTML="<h4>Headlines</h4>";
+//     newstype.innerHTML="<h4>Headlines</h4>";
     fetchHeadlines();
 };
 
 general.addEventListener('click',function(){
-    newstype.innerHTML="<h4>General</h4>";
+//     newstype.innerHTML="<h4>General</h4>";
     fetchGeneralNews();    
 });
 sports.addEventListener('click',function(){
-    newstype.innerHTML="<h4>Sports</h4>";
+//     newstype.innerHTML="<h4>Sports</h4>";
     fetchSportsNews();    
 });
 entertainment.addEventListener('click',function(){
-    newstype.innerHTML="<h4>Entertainment</h4>";
+//     newstype.innerHTML="<h4>Entertainment</h4>";
     fetchEntertainmentNews();    
 });
 technology.addEventListener('click',function(){
-    newstype.innerHTML="<h4>Technology</h4>";
+//     newstype.innerHTML="<h4>Technology</h4>";
 fetchTechnologyNews();
 });
 search.addEventListener('click',function(){
-    newstype.innerHTML="<h4>Search : "+newsquery.value+"</h4>";
+//     newstype.innerHTML="<h4>Search : "+newsquery.value+"</h4>";
 fetchQueryNews();
 });
 
