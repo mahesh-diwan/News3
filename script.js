@@ -160,7 +160,7 @@ newsdetails.innerHTML="";
         var date=news.pubDate.split(' ');
 
         var col=document.createElement('div');
-        col.className="col-sm-12 col-md-4 col-lg-3 card rounded-2 bg-dark-subtle";
+        col.className="col-sm-12 col-md-4 col-lg-3 card mb-2 rounded-2 bg-dark-subtle";
 
         var card=document.createElement('div');
         card.className="p-2";
