@@ -173,11 +173,11 @@ newsdetails.innerHTML="";
         var cardbody=document.createElement('div');
 
         var newsheading=document.createElement('h5');
-        newsheading.className="card-title";
+        newsheading.className="card-title fw-bold mt-2";
         newsheading.innerHTML=news.title;
 
         var dateheading=document.createElement('h6');
-        dateheading.className='text-primary';
+        dateheading.className='text-success fw-bold';
         dateheading.innerHTML=date[0];
 
         var description=document.createElement('p');
@@ -186,7 +186,7 @@ newsdetails.innerHTML="";
         description.innerHTML=news.description.substring(0,250)+".......";
 
         var link=document.createElement('a');
-        link.className="btn btn-dark";
+        link.className="btn btn-warning fw-bold border-1 border-dark";
         link.setAttribute("target","_blank");
         link.href=news.link;
         link.innerHTML="Read More";
