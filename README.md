@@ -2,12 +2,12 @@
 News Website
 
 #Home Page
-!alt[](https://photos.app.goo.gl/16HpM6DLoTB1d1GR9)
+!alt[This is Home page of news Website](https://drive.google.com/file/d/19rkgKZYFLUJOrPFkqUtUhjODqZA8E5Qx/view)
 
 #Sports Page
-!alt[](https://photos.app.goo.gl/8NXD8BqsmTxanxMu7)
+!alt[This is Sports page of News Website](https://drive.google.com/file/d/19ttGrNhdQ3cu5YRWw5LY9f6YBp6O7--t/view)
 
 #Technology page
-!alt[](https://photos.app.goo.gl/XWjdG83w7sK3Gc4R8)
+!alt[This is Technology page of News Website](https://drive.google.com/file/d/19vWUlTZ1bWCQgrzt6pw6_w3fzTGVyzSj/view)
 
 #
