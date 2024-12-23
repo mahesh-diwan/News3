@@ -1,3 +1,41 @@
+# NewsKida
+
+## Overview
+NewsKida is a web application that fetches news articles from various categories using the NewsData API. The application allows users to view headlines, general news, sports news, technology news, entertainment news, and search for specific articles.
+
+## Technologies Used
+- HTML
+- JavaScript
+- CSS (if applicable)
+- NewsData API
+
+## Features
+- Fetch and display news articles from different categories:
+  - General
+  - Sports
+  - Technology
+  - Entertainment
+- Search functionality for specific news queries.
+- Responsive design for better user experience.
+
+## Files Included
+1. **index.html**: The main HTML file that structures the web application.
+2. **script.js**: The JavaScript file that handles API requests and dynamic content rendering.
+
+## Getting Started
+
+### Prerequisites
+- A modern web browser (Chrome, Firefox, etc.)
+- Internet connection to fetch news data from the API.
+
+### Steps to Build and Run the Project
+
+1. **Clone the Repository**
+   Open your terminal and run:
+
+
+
+
 
 # News Website
 
