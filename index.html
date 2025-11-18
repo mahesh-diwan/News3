@@ -1,81 +1,116 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
- <style>
-      @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-      *{
-        font-family: 'Sora','sans-serif';
-      }
-    </style>
-  </head>
-    <title>News Website</title>
-    <link href="style.css">
-  </head>
-  <body class="n-0 p-0">
 
-<div class="container-fluid m-0 p-0 bg-black">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News3 – Your Minimalist News Source</title>
 
-<!-- navbar -->
-<div>
+  <meta name="description"
+    content="Cyberpunk-inspired news experience. Get the latest headlines from technology, sports, entertainment, health, and more.">
+  <meta name="theme-color" content="#00f0ff">
 
-    <nav class="navbar navbar-expand-lg bg-dark ">
-        <div class="container-fluid ">
-          <a class="navbar-brand text-warning " href="#" >NewsKida</a>
-          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top" role="navigation">
+    <div class="container">
+
+      <a class="navbar-brand" href="#" aria-label="News3 Home">
+        News<span class="brand-accent">3</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav mx-auto" role="menu">
+          <li class="nav-item" role="none">
+            <a class="nav-link active-tab" id="headlines" href="#" role="menuitem">Headlines</a>
+          </li>
+          <li class="nav-item" role="none">
+            <a class="nav-link" id="general" href="#" role="menuitem">Health</a>
+          </li>
+          <li class="nav-item" role="none">
+            <a class="nav-link" id="technology" href="#" role="menuitem">Technology</a>
+          </li>
+          <li class="nav-item" role="none">
+            <a class="nav-link" id="sports" href="#" role="menuitem">Sports</a>
+          </li>
+          <li class="nav-item" role="none">
+            <a class="nav-link" id="entertainment" href="#" role="menuitem">Entertainment</a>
+          </li>
+        </ul>
+
+        <div class="search-wrapper">
+          <input class="form-control" type="search" id="newsquery" placeholder="Search..." aria-label="Search news">
+          <button class="btn" id="search" aria-label="Search">
+            <i class="bi bi-search"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#general" id="general">General</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" href="#technology" id="technology">Technology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" href="#sports" id="sports">Sports</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" href="#entertainment" id="entertainment">Entertainment</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="text" id="newsquery" placeholder="Search News" >
-              <button class="btn btn-outline-warning" type="button" id="search">Search</button>
-            </form>
-          </div>
         </div>
-      </nav>
-    
-</div>
 
-<!-- News -->
-<div>
+      </div>
+    </div>
+  </nav>
 
-<!--     <div class="row m-lg-5 text-warning" id="newstype"></div> -->
-    <div class="row me-5 ms-5 mt-5" id="newsdetails"></div>
+  <!-- MAIN CONTENT -->
+  <main class="container content-area">
+    <div class="section-header">
+      <h1 class="section-title" id="pageTitle">Headlines</h1>
+      <p class="section-subtitle" id="pageSubtitle">Latest news from India</p>
+    </div>
+    <div class="row g-4" id="newsdetails" role="feed" aria-busy="false"></div>
+  </main>
 
-</div>
+  <!-- SCROLL TO TOP -->
+  <button id="scrollTop" aria-label="Scroll to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
 
-<!-- footer --> 
-<div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">Built by <a href="https://github.com/mahesh-diwan" target="_blank"
+            rel="noopener noreferrer" class="footer-author">Mahesh Diwan</a></p>
+        <div class="footer-links">
+          <a href="https://github.com/mahesh-diwan" target="_blank" rel="noopener noreferrer" class="footer-link"
+            aria-label="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/mahesh-diwan" target="_blank" rel="noopener noreferrer" class="footer-link"
+            aria-label="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/mahesh_diwan1" target="_blank" rel="noopener noreferrer" class="footer-link"
+            aria-label="Twitter">
+            <i class="bi bi-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-</div> <nav class="navbar bg-body-tertiary">
-  <div class="container-fluid bg-dark">
-<h5 class=" me-auto ms-auto text-white">Newskida</h5>
-  </div>
-</nav>
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-</div>
+</body>
 
-</div>
-
-
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
 </html>
