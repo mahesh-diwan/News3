@@ -78,14 +78,6 @@ Here is a preview of the News3 application UI:
 ![General news view](https://github.com/mahesh-diwan/News3/blob/main/preview2.png)
 
 
-![Sports news view](https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg)
-
-
-![Technology news view](https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg)
-
-
-![Entertainment news view](https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg)
-
 <p align="center">
   <img src="https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg" width="180" />
   <img src="https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg" width="180" />
