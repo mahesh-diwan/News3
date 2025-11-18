@@ -76,14 +76,14 @@ Contributions are highly encouraged! Whether fixing bugs, improving documentatio
 
 Here is a preview of the News3 application UI:
 
-![Home page of News3](https://github.com/mahesh-diwan/News3/blob/main/preview1.png)
+![Home page of News3](https://github.com/mahesh-diwan/News3/blob/main/assets/preview1.png)
 
 
-![General news view](https://github.com/mahesh-diwan/News3/blob/main/preview2.png)
+![General news view](https://github.com/mahesh-diwan/News3/blob/main/assets/preview2.png)
 
 
 <p align="center">
-  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg" width="265" />
-  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg" width="265" />
-  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg" width="265" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/assets/preview5.jpeg" width="265" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/assets/preview4.jpeg" width="265" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/assets/preview3.jpeg" width="265" />
 </p>
