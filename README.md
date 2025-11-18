@@ -38,11 +38,15 @@ News3 is a dynamic web application that aggregates news articles from multiple c
 
 1. **Clone the repository**
 
-```bash git clone https://github.com/mahesh-diwan/News3.git```
+```bash 
+git clone https://github.com/mahesh-diwan/News3.git
+```
 
 2. **Navigate to the project directory**
 
-```bash cd News3```
+```bash
+ cd News3 
+ ```
 
 3. **Configure API key**
 
