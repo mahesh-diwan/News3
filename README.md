@@ -56,11 +56,12 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## User Interface
 
-### Home Page
 ![alt This is Home page of news Website](https://github.com/mahesh-diwan/News3/blob/main/preview1.png)
 
-### Sports Page
-![alt This is Sports page of News Website](https://github.com/mahesh-diwan/News3/blob/main/preview2.png)
+![alt This is a page of News Website](https://github.com/mahesh-diwan/News3/blob/main/preview2.png)
+![alt This is a page of News Website](https://github.com/mahesh-diwan/News3/blob/main/preview3.png)
+![alt This is a page of News Website](https://github.com/mahesh-diwan/News3/blob/main/preview4.png)
+![alt This is a page of News Website](https://github.com/mahesh-diwan/News3/blob/main/preview5.png)
 
 
 #
