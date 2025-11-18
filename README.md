@@ -73,16 +73,21 @@ Contributions are highly encouraged! Whether fixing bugs, improving documentatio
 Here is a preview of the News3 application UI:
 
 ![Home page of News3](https://github.com/mahesh-diwan/News3/blob/main/preview1.png)
-*Home page with category selection*
+
 
 ![General news view](https://github.com/mahesh-diwan/News3/blob/main/preview2.png)
-*General news displayed with headlines*
+
 
 ![Sports news view](https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg)
-*Sports category view*
+
 
 ![Technology news view](https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg)
-*Technology news category*
+
 
 ![Entertainment news view](https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg)
-*Entertainment news category*
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg" alt="Sports news view" width="30%" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg" alt="Technology news view" width="30%" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg" alt="Entertainment news view" width="30%" />
+</div>
