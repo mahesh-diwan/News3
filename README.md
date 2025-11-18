@@ -79,7 +79,7 @@ Here is a preview of the News3 application UI:
 
 
 <p align="center">
-  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg" width="250" />
-  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg" width="250" />
-  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg" width="250" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg" width="300" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg" width="300" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg" width="300" />
 </p>
