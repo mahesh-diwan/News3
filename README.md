@@ -78,21 +78,16 @@ Here is a preview of the News3 application UI:
 ![General news view](https://github.com/mahesh-diwan/News3/blob/main/preview2.png)
 
 
-<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: nowrap;">
+![Sports news view](https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg)
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 0.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 150px; text-align: center;">
-    <img src="https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg" alt="Sports news view" style="width: 100%; height: auto; border-radius: 4px;" />
-    <p style="font-size: 0.85rem; margin-top: 0.3rem;">Sports category view</p>
-  </div>
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 0.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 150px; text-align: center;">
-    <img src="https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg" alt="Technology news view" style="width: 100%; height: auto; border-radius: 4px;" />
-    <p style="font-size: 0.85rem; margin-top: 0.3rem;">Technology news category</p>
-  </div>
+![Technology news view](https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg)
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 0.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 150px; text-align: center;">
-    <img src="https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg" alt="Entertainment news view" style="width: 100%; height: auto; border-radius: 4px;" />
-    <p style="font-size: 0.85rem; margin-top: 0.3rem;">Entertainment news category</p>
-  </div>
 
-</div>
+![Entertainment news view](https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg)
+
+<p align="center">
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg" width="180" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg" width="180" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg" width="180" />
+</p>
