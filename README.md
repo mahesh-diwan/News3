@@ -11,7 +11,7 @@ News3 is a dynamic web application that aggregates news articles from multiple c
 
 ## Features
 - Display news articles by category:
-  - General
+  - Health
   - Sports
   - Technology
   - Entertainment
@@ -66,7 +66,7 @@ Contributions are highly encouraged! Whether fixing bugs, improving documentatio
 ## Acknowledgments
 
 - Thanks to the [NewsData API](https://newsdata.io/) for providing comprehensive and up-to-date news data.
-- Inspiration and UI snapshots from the original project owner.
+
 
 ## User Interface Preview
 
@@ -79,7 +79,7 @@ Here is a preview of the News3 application UI:
 
 
 <p align="center">
-  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg" width="270" />
-  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg" width="270" />
-  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg" width="270" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview5.jpeg" width="265" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview4.jpeg" width="265" />
+  <img src="https://github.com/mahesh-diwan/News3/blob/main/preview3.jpeg" width="265" />
 </p>
